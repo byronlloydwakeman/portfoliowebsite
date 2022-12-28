@@ -1,0 +1,12 @@
+.title{
+    margin: 0;
+
+    color: var(--introduction-color);
+    letter-spacing: 2px;
+    font-weight: var(--light-weight);
+    font-size: var(--title-font-size);
+}
+
+.subtitle{
+    font-size: var(--subtitle-font-size);
+}

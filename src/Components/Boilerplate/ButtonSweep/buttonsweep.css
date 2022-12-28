@@ -1,0 +1,49 @@
+/* Button */
+
+.introduction__contact-me-container {
+    max-width: fit-content;
+    max-height: fit-content;
+    
+    margin: 3rem;
+    margin-left: 0;
+
+    line-height: 0;
+
+    background-size: 220% 100%;
+    background-image: linear-gradient(110deg, var(--background-color) 50%, var(--primary-color) 50%);
+
+    border: 1px solid var(--primary-color);
+
+    transition: background-position 1s;
+    -webkit-transition: background-position 1s;
+    -moz-transition: background-position 1s;
+}
+
+.introduction__contact-me-container:hover {
+    background-position: 100% 0%;
+}
+
+.introduction__contact-me {
+    font-family: "Raleway", sans-serif !important;
+    font-weight: var(--light-weight) !important;
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    
+    width: fit-content;
+    height: fit-content;
+
+    padding: 1.5rem 5rem;
+    margin-top: 0;
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    
+    border: none;
+    cursor: pointer;
+    overflow: hidden;  
+}
+
+.introduction__contact-me:hover {
+    color: var(--background-color);
+}

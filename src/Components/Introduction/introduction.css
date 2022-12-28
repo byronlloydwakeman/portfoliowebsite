@@ -1,0 +1,77 @@
+/* Introduction */
+
+.introduction {
+    color: var(--introduction-color);
+
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+    margin: 0 5rem;
+}
+
+.introduction__header {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.introduction__line {
+    display: flex;
+    flex-direction: row;
+}
+
+.introduction__letter-B {
+   margin-left: 2rem;
+}
+
+.introduction__letter {
+    display: inline-block;
+    font-size: 9vh;
+}
+
+.introduction__letter:hover {
+    color: var(--primary-color);
+    animation: effect linear 0.5s;
+    animation-timing-function: cubic-bezier(.63,.26,.72,.43);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.description {
+    color: var(--tertiary-color);
+    letter-spacing: 2px;
+    font-weight: var(--light-weight);
+    font-size: var(--desc-font-size);
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+
+@keyframes effect {
+  30% {
+    transform: scale(1.25, 0.75);
+  }
+
+  40% {
+    transform: scale(0.75, 1.25);
+  }
+
+  50% {
+    transform: scale(1.15, 0.85);
+  }
+
+  65% {
+    transform: scale(.95, 1.05);
+  }
+
+  75% {
+    transform: scale(1.05, .95);
+  }
+
+  100% {
+    color: var(--secondary-color);
+  }
+}

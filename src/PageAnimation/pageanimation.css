@@ -1,0 +1,28 @@
+
+.ContentFadeInAnimation{
+    animation: ContentFadeIn 1s linear;
+}
+
+.ContentFadeOutAnimation{
+    animation: ContentFadeOut 1s linear;
+}
+
+@keyframes ContentFadeIn
+{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes ContentFadeOut
+{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

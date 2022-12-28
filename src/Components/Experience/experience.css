@@ -1,0 +1,16 @@
+.experience-title__container{
+    margin: 4vh 2vw;
+}
+
+.experience-subtitle__container{
+    margin: 2vh 2vw;
+}
+
+.experience-desc__container{
+    margin: 1vh 2vw;
+    margin-bottom: 3vh;
+}
+
+.experience-desc{
+    margin-bottom: 1vh;
+}

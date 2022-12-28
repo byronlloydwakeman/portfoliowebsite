@@ -1,0 +1,107 @@
+/* Navigation Bar */
+
+.navigation-bar__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 40px;
+    max-width: 100%;
+    margin: 15px 15px;
+}
+
+.navigation__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    filter: invert(72%) sepia(55%) saturate(4017%) hue-rotate(169deg) brightness(105%) contrast(104%);
+    transition: width 0.5s, height 0.5s;
+    -webkit-transition: width 0.5s, height 0.5s;
+    -moz-transition: width 0.5s, height 0.5s;
+}
+
+.navigation__image:hover {
+    width: 105%;
+    height: 105%;
+}
+
+.navigation-bar-text__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 40px;
+    margin: 0 5px;
+
+    font-size: 2rem;
+}
+
+.navigation-bar-text__unselected{
+    margin: 0;
+
+    font-size: 2rem;
+    font-weight: var(--light-weight);
+    color: var(--introduction-color);
+}
+
+.navigation-bar__selected{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 25px;
+
+    font-weight: var(--light-weight);
+
+    color: var(--background-color);
+}
+
+.navigation-bar__unselected{
+    border: 1px solid var(--background-color);
+    border-radius: 25px; 
+}
+
+.navigation-bar-text__selected{
+    color: var(--background-color);
+    font-size: 2rem;
+
+    margin: 0;
+}
+
+.navigation-bar__link{
+    text-decoration: none;
+
+}
+
+.FadeInAnimation{
+    animation: FadeIn 1s linear;
+}
+
+.FadeOutAnimation{
+    animation: FadeOut 1s linear;
+}
+
+@keyframes FadeOut{
+    0%{
+        background-color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+        border-radius: 25px;
+    }
+    100%{
+        background-color: var(--background-color);
+        border: 1px solid var(--background-color);
+        border-radius: 25px; 
+    }
+}
+
+@keyframes FadeIn{
+    0%{
+        background-color: var(--background-color);
+
+        border: 1px solid var(--background-color);
+        border-radius: 25px; 
+    }
+    100%{
+        background-color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+        border-radius: 25px;
+
+    }
+}

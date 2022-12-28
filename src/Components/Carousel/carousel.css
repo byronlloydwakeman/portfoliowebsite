@@ -1,0 +1,92 @@
+.carousel__container{
+    width: auto;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-content__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-title__container{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.carousel-description__container{
+    width: 40%
+}
+
+.carousel-description-text__container{
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+.carousel-description__link{
+    text-decoration: none;
+}
+
+.carousel-description-link__text{
+    font-size: var(--desc-font-size);
+    color: var(--primary-color);
+}
+
+.carousel-img__container{
+    width: 60%;
+
+    padding: 10vh 2vw;
+}
+
+.carousel-img{
+    max-width: 15vw;
+    transition: max-width 1s linear;
+}
+
+.carousel-img:hover{
+    max-width: 17vw;
+}
+
+.carousel__item{
+    width: 100%;
+
+    padding: 20px;
+}
+
+.carousel__button{
+    background-color: transparent;
+    border: 0;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.carousel__button-img{
+    filter: invert(100%);
+    height: 30px;
+    width: 30px;
+    transition: filter 1s, height 1s, width 1s;
+}
+
+.carousel__button-img:hover{
+    filter: invert(60%) sepia(67%) saturate(1486%) hue-rotate(218deg) brightness(89%) contrast(85%);
+    height: 35px;
+    width: 35px;
+}
+
+@media only screen and (max-width: 1000px){
+    .carousel-content__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-description__container{
+        width: 100%
+    }
+    .carousel-img__container{
+        width: 100%;
+    }
+
+}

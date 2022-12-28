@@ -1,0 +1,46 @@
+:root {
+    --introduction-font-size: 5rem;
+    --background-color: rgb(31, 31, 31);
+    --primary-color: #2ec7ff;
+    --secondary-color: rgb(166, 123, 211);
+    --tertiary-color: #8d8d8d;
+    --footer-color: rgb(46, 46, 46);
+    --introduction-color: rgb(223, 220, 220);
+    --bold-weight: 900;
+    --light-weight: 300;
+    --title-font-size: 7rem;
+    --subtitle-font-size: 3rem;
+    --desc-font-size: 2rem;
+}
+
+/* Typography */
+
+html {
+    font-size: 40%;
+}
+
+body {
+    background-color: var(--background-color);
+    font-size: var(--introduction-font-size);
+    font-family: 'Raleway', sans-serif;
+    color: var(--introduction-color);
+
+    margin: 0;
+}
+
+span {
+    margin: 0;
+}
+
+/* Container */
+.main-page 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
