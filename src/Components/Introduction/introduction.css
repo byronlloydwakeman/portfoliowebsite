@@ -28,7 +28,7 @@
 
 .introduction__letter {
     display: inline-block;
-    font-size: 9vh;
+    font-size: 9rem;
 }
 
 .introduction__letter:hover {
@@ -46,7 +46,7 @@
     font-weight: var(--light-weight);
     font-size: var(--desc-font-size);
     margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
 }
 
 
