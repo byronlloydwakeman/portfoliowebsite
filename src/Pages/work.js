@@ -154,22 +154,32 @@ const ExamPracticeSlide = () => {
         [
             `This website functions as an flashcard/exam practice website where the user
             can create groups of questions where they can then practice the questions as
-            an exam or in a flashcard format.`,
+            an exam or in a flashcard format. For example if the user has a biology exam coming up
+            they can create a group of question called "Biology" and enter biology questions
+            The user can then select the questions which they haven't seen before or haven't answered
+            correctly as an exam or as flashcard (please see diagrams for all options)`,
             `The website is built with react which is a javascript library which allows for
             more organised development, enabling the user experience to be smoother.`,
             `The back-end is built in python which includes an API which is what the website
             calls in order to perform CRUD operations on the back - end.
             `,
-            'MongoDB is an noSQL database which saves elements as json objects'
+            `MongoDB is an noSQL database which saves elements as json objects. This allows
+            us to easily perform operations on the db.`
         ]} 
         selectedImage=
         {
-            <img className="carousel-selected-img" src={require("../Components/Carousel/CarouselPics/ScientificCalc/ScientificCalcClientAPI.Png")} alt=""/>
+            <img className="carousel-selected-img" src={require("../Components/Carousel/CarouselPics/ExamPractice/ExamPracAddQues.Png")} alt=""/>
         }
         images={[
-            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ScientificCalc/ScientificCalcLogic.Png")} alt=""/>,
-            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ScientificCalc/ScientificCalcServerAPI.Png")} alt=""/>,
-            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ScientificCalc/ScientificCalcUI.Png")} alt=""/>,
+
+            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ExamPractice/ExamPracCode1.Png")} alt=""/>,
+            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ExamPractice/ExamPracCode2.Png")} alt=""/>,
+            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ExamPractice/ExamPracEdit.Png")} alt=""/>,
+            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ExamPractice/ExamPracEditQues.Png")} alt=""/>,
+            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ExamPractice/ExamPracFrontPage.Png")} alt=""/>,
+            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ExamPractice/ExamPracSelectKnow.Png")} alt=""/>,
+            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ExamPractice/ExamPracServerAPI.Png")} alt=""/>,
+            <img className="carousel-unselected-img" src={require("../Components/Carousel/CarouselPics/ExamPractice/ExamPracServerCRUD.Png")} alt=""/>
     ]} url="ChessBackEnd"/>
     )
 }

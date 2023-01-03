@@ -16,7 +16,7 @@
 
 .carousel-description-text__container{
     margin-top: 1vh;
-    margin-bottom: 3vh;
+    margin-bottom: 30px;
 }
 
 .carousel-description__link{
@@ -59,6 +59,10 @@
 }
 
 .carousel-img__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     width: 60%;
 
     padding: 10vh 2vw;
@@ -72,6 +76,9 @@
 .carousel-unselected-img__container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-top: 30px;
 }
 
 .carousel-unselected-img{
@@ -85,6 +92,8 @@
 
 .carousel-selected-img{
     width: 350px;
+    
+    border: 1px solid var(--primary-color);
 }
 
 @media only screen and (max-width: 1000px){
