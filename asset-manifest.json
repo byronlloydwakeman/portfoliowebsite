@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfoliowebsite/static/css/main.07a238c1.css",
+    "main.js": "/portfoliowebsite/static/js/main.07387c3c.js",
+    "static/media/SquaresxamlPage.Png": "/portfoliowebsite/static/media/SquaresxamlPage.4f088cd2284acf265939.Png",
+    "static/media/ScientificCalcLogic.Png": "/portfoliowebsite/static/media/ScientificCalcLogic.36fbe472c1b6391d2002.Png",
+    "static/media/MSAxaml.Png": "/portfoliowebsite/static/media/MSAxaml.b8a5e412417a2089d7ba.Png",
+    "static/media/ExamPracCode2.Png": "/portfoliowebsite/static/media/ExamPracCode2.e7b96c554e71ea0174ad.Png",
+    "static/media/ChessLogicTest.Png": "/portfoliowebsite/static/media/ChessLogicTest.8ec432c519e9240f3ecf.Png",
+    "static/media/ExamPracServerAPI.Png": "/portfoliowebsite/static/media/ExamPracServerAPI.06cdd797a02504df76a3.Png",
+    "static/media/SquaresAPI.Png": "/portfoliowebsite/static/media/SquaresAPI.9cde2daf3678bbbfb4fa.Png",
+    "static/media/ChessLogic.Png": "/portfoliowebsite/static/media/ChessLogic.d7674197c95d4dc2cef2.Png",
+    "static/media/ExamPracCode1.Png": "/portfoliowebsite/static/media/ExamPracCode1.e0509b3c88109f74781b.Png",
+    "static/media/ScientificCalcServerAPI.Png": "/portfoliowebsite/static/media/ScientificCalcServerAPI.05cd3cf5a4c9f7ad4a36.Png",
+    "static/media/ChessServerAPI.Png": "/portfoliowebsite/static/media/ChessServerAPI.a00222a49dbf5f640b98.Png",
+    "static/media/Chessclientapi.Png": "/portfoliowebsite/static/media/Chessclientapi.4c9ee6727b3d1e34bc6b.Png",
+    "static/media/ChessUI.Png": "/portfoliowebsite/static/media/ChessUI.eafb41f66912801f5d1a.Png",
+    "static/media/ExamPracServerCRUD.Png": "/portfoliowebsite/static/media/ExamPracServerCRUD.a6121958a22159a557d8.Png",
+    "static/media/SquaresSQL.Png": "/portfoliowebsite/static/media/SquaresSQL.e6c350428b1493aec44a.Png",
+    "static/media/ScientificCalcClientAPI.Png": "/portfoliowebsite/static/media/ScientificCalcClientAPI.dbb41aa78512134a1b65.Png",
+    "static/media/MSACsharp.Png": "/portfoliowebsite/static/media/MSACsharp.8628c45d0b9553f5660f.Png",
+    "static/media/Chessclienttest.Png": "/portfoliowebsite/static/media/Chessclienttest.eb08e65f44838135711f.Png",
+    "static/media/ExamPracEdit.Png": "/portfoliowebsite/static/media/ExamPracEdit.a317046d8be5ae98cb8c.Png",
+    "static/media/arrowright.png": "/portfoliowebsite/static/media/arrowright.a8bcf6ceca6a31bccb66.png",
+    "static/media/myself.jpeg": "/portfoliowebsite/static/media/myself.97cdd7277af1810032a0.jpeg",
+    "static/media/ExamPracSelectKnow.Png": "/portfoliowebsite/static/media/ExamPracSelectKnow.21c804df8b175907817e.Png",
+    "static/media/MSAapp.Png": "/portfoliowebsite/static/media/MSAapp.ba062a745942262a36c7.Png",
+    "static/media/ExamPracFrontPage.Png": "/portfoliowebsite/static/media/ExamPracFrontPage.d18c0458eaea067b3b87.Png",
+    "static/media/arrowleft.png": "/portfoliowebsite/static/media/arrowleft.2f8bd4b149fa57ea3fcd.png",
+    "static/media/ExamPracEditQues.Png": "/portfoliowebsite/static/media/ExamPracEditQues.a8c7fc9b29930f818fed.Png",
+    "static/media/ExamPracAddQues.Png": "/portfoliowebsite/static/media/ExamPracAddQues.d7863b6ce87b9e22e871.Png",
+    "static/media/SquaresRegisterPage.Png": "/portfoliowebsite/static/media/SquaresRegisterPage.a67cd5ecaede92338f3d.Png",
+    "static/media/SquaresLoginPage.Png": "/portfoliowebsite/static/media/SquaresLoginPage.d3858fee2b1200956072.Png",
+    "static/media/ScientificCalcUI.Png": "/portfoliowebsite/static/media/ScientificCalcUI.51fd8e6d3a704ce0e799.Png",
+    "index.html": "/portfoliowebsite/index.html",
+    "main.07a238c1.css.map": "/portfoliowebsite/static/css/main.07a238c1.css.map",
+    "main.07387c3c.js.map": "/portfoliowebsite/static/js/main.07387c3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07a238c1.css",
+    "static/js/main.07387c3c.js"
+  ]
+}
