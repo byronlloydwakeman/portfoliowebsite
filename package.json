@@ -1,6 +1,5 @@
 {
-  "homepage": "https://bystorm1103.github.io/portfoliowebsite",
-  "name": "portfoliowebsite",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

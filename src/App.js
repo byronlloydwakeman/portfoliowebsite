@@ -20,12 +20,12 @@ class App extends Component {
             <div className="page">
                 <NavigationBar/>
                 <div id="content">
-                    <Route exact path="portfoliowebsite/Home" component={Introduction}/>
+                    <Route exact path="/Home" component={Introduction}/>
                     {/* <Route exact path="/menu" component={Menu}/> */}
-                    <Route exact path="portfoliowebsite/About" component={About}/>
-                    <Route exact path="portfoliowebsite/Experience" component={Experience}/>
-                    <Route exact path="portfoliowebsite/Work" component={Work}/>
-                    <Route exact path="portfoliowebsite/Contact" component={Contact}/>
+                    <Route exact path="/About" component={About}/>
+                    <Route exact path="/Experience" component={Experience}/>
+                    <Route exact path="/Work" component={Work}/>
+                    <Route exact path="/Contact" component={Contact}/>
                 </div>
                 <Footer/>
             </div>
